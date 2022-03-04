@@ -1,0 +1,44 @@
+
+.container {
+    margin: 0px;
+    padding: 0px;
+}
+
+.title {
+    margin: 0px;
+    padding: 0px;
+  
+
+}
+
+.create {
+
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.row {
+    margin: 0%;
+    padding: 0%;
+    display: flexbox;
+}
+.img-fluid { 
+    display: flexbox;
+    box-shadow: 5px 5px 10px rgba(222, 220, 217, 1);
+    border: 0%;
+    margin: 0%;
+    padding: 0%;
+    padding-left: 3px;
+    width: 435px;
+    height: 210px;
+
+}
+
+.btn-btn-light {
+ 
+    background-color: darkgray;
+}
+
+
+
