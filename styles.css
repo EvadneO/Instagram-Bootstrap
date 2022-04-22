@@ -2,6 +2,7 @@
 .container {
     margin: 0px;
     padding: 0px;
+    
 }
 
 .title {
@@ -11,11 +12,24 @@
 
 }
 
-.create {
+.title {
+    justify-content: flex-end;
+   margin-left: 50px;
+   font-size: 30px;
 
-    margin: 0px;
-    padding: 0px;
+}
 
+.navbar-brand {
+    font-style: italic;
+    font-weight: 20px;
+    font-size: 35px;
+    font-family: Parkavenue, cursive;
+}
+
+
+.barra {
+    justify-content: flex-start;
+    display: flex;
 }
 
 .row {
@@ -32,6 +46,7 @@
     padding-left: 3px;
     width: 435px;
     height: 210px;
+    
 
 }
 
@@ -40,5 +55,61 @@
     background-color: darkgray;
 }
 
+.button {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.dropdown-menu {
+    justify-content: flex-start;
+    
+}
 
 
+.text-muted {
+margin-right: -300px;
+font-family: 'Times New Roman', Times, serif;
+font-size: 20px;
+
+
+}
+
+.card-title {
+margin-left: -150px;
+padding-top: 0px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-weight: 10px;
+}
+
+.card {
+  
+   width: 600px;
+   height: 650px;
+   display: block;
+   margin: auto;
+   padding: 0px;
+   box-shadow: 15px 15px 10px rgb(180, 178, 174);
+   border-radius: 5px;
+}
+
+.img-fluid {
+    box-shadow: 15px 15px 10px rgba(222, 220, 217, 1);
+}
+
+.fas.fa-camera {
+    font-size: 30px;
+   padding: auto;
+   margin: auto;
+   color:blue;
+   background-color: white;
+}
+
+.fas.fa-map-marker-alt {
+    font-size: 30px;
+   padding-left: auto;
+   padding: auto;
+   margin: auto;
+   color: red;
+   background-color: white;
+}
